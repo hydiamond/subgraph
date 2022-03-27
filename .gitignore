@@ -1,0 +1,10 @@
+/node_modules/
+/generated/
+/build/
+.idea/
+.git
+.git/
+.github
+.github/
+package-lock.json
+yarn.lock

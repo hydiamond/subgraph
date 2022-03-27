@@ -1,0 +1,8 @@
+type UserHistory @entity {
+  id: ID!
+  type: String!
+  user: String!
+  timestamp: BigInt!
+  amount: BigInt!
+}
+

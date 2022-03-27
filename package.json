@@ -1,0 +1,14 @@
+{
+  "name": "prediction",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "add-host" : "graph auth --product hosted-service 4cbc72163742409faed40a8262d3198c",
+    "deploy": "graph deploy --product hosted-service SOTATEK-HUYNGUYEN2/Classweb3"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.22.2",
+    "@graphprotocol/graph-ts": "0.22.1"
+  }
+}
